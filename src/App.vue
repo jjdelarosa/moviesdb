@@ -11,7 +11,13 @@
 </template>
 
 <script>
+import NavBar from './components/NavBar'
+import Drawer from './components/Drawer'
 export default {
   name: 'App',
+  components: {
+    NavBar,
+    Drawer,
+  },
 }
 </script>
