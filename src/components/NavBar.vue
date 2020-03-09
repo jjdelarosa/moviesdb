@@ -3,7 +3,6 @@
     <v-app-bar-nav-icon v-if="user" @click="drawer ? hideDrawer() : showDrawer()" />
     <v-toolbar-title class="font-weight-light">
       <span>Movies</span>
-      <span class="font-weight-regular">DB</span>
     </v-toolbar-title>
   </v-app-bar>
 </template>
